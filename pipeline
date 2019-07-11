@@ -1,4 +1,4 @@
 node {
   stage 'Run JMeter Test'
-  bat 'F:\apache-jmeter-5.0\apache-jmeter-5.0\bin\jmeter.bat -n -t F:\apache-jmeter-5.0\apache-jmeter-5.0\bin\ReactSignInAPI.jmx -l test.jtl'
+  bat 'F:/apache-jmeter-5.0/apache-jmeter-5.0/bin/jmeter.bat -n -t F:/apache-jmeter-5.0/apache-jmeter-5.0/bin/ReactSignInAPI.jmx -l test.jtl'
 }
